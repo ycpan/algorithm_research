@@ -1,6 +1,6 @@
 ##   《Simplified DOM Trees for Transferable Attribute Extraction from the Web》论文解读
 ### 整体认知
-    [本论文](./3.Simplified DOM Trees for Transferable Attribute Extraction from the Web.pdf)主要是把网页信息抽取当成一个分类任务。即对一个网页来说，对网页中的文本打标签。比如对汽车领域，会对文本标记为model,price,fuel_ecommy等。本轮文可以解决对于单个垂直领域和跨领域信息抽取的问题，两种任务使用的分类器有所区别。本轮文的准确度较高，也有[pytorch代码](https://github.com/MurtuzaBohra/SimpDOM)实现。
+    ![本论文](./3.Simplified DOM Trees for Transferable Attribute Extraction from the Web.pdf)主要是把网页信息抽取当成一个分类任务。即对一个网页来说，对网页中的文本打标签。比如对汽车领域，会对文本标记为model,price,fuel_ecommy等。本轮文可以解决对于单个垂直领域和跨领域信息抽取的问题，两种任务使用的分类器有所区别。本轮文的准确度较高，也有[pytorch代码](https://github.com/MurtuzaBohra/SimpDOM)实现。
     本文把attribue当成要预测的class，也有些论文中称为filed。
 ### 脉络梳理
     本论文主要分为以下几个部分:
